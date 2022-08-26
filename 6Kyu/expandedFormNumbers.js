@@ -16,7 +16,7 @@ function expandedForm(num) {
   
   let numOfZeroes = strNum.length-1;
   for (let i = 0; i < strNum.length; i++){
-    if ((strNum[i] == 0)){ // we don't pad 0s with more 0s, skip
+    if ((strNum[i] == 0)){ // we don't pad 0s with more 0s, skip iteration
       numOfZeroes -= 1;
       continue
     }
